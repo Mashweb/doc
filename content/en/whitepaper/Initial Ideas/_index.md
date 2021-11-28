@@ -5,22 +5,16 @@ linkTitle: "Initial Questions and Ideas for Zen Development"
 weight: 7
 date: 2017-01-05
 description: >
-  What can your user do with your project?
+  Now we shall make our first foray into describing Zen. How do we propose to solve the problems listed in "Introduction"?
 type: docs
 ---
 
-{{% pageinfo %}}
-This is a placeholder page that shows you how to use this template site.
-{{% /pageinfo %}}
+Which of the following do we want to focus upon?
 
-Think about your project’s features and use cases. Use these to choose your core tasks. Each granular use case (enable x, configure y) should have a corresponding tasks page or tasks page section. Users should be able to quickly refer to your core tasks when they need to find out how to do one specific thing, rather than having to look for the instructions in a bigger tutorial or example. Think of your tasks pages as a cookbook with different procedures your users can combine to create something more substantial.
+1. A Lego-like construction kit, basically for building a Website (or web page) from scratch? Such a construction kit would concentrate upon a tall stack of capabilities based upon a narrow, "opinionated" trunk of foundational technologies. Examples of the foundational technologies could be a CSS framework like Bootstrap or Foundation, a CSS grid system like 960 Grid System, a CSS framework oriented to working with web components, components from customelements.io or webcomponents.org, and widgets from ExtJS or the Dojo Toolkit.
+1. A tool kit for creating or modifying web pages? Such a tool kit would concentrate upon the broadest possible comprehension of different kinds of web components in the broadest meaning of the term—including JavaScript-based widgets. Such a tool kit could not reasonably be made to comprehend attached JavaScript, but could understand the protocols of JavaScript-based widget libraries to intervene in and interact with the lifecycle of widgets. Such a tool kit could not reasonably comprehend other JavaScript, but could leave that JavaScript untouched. Such a tool kit could not reasonably be able to add useful, arbitrary JavaScript to a web page, but could add a very broad class of visually programmed functions as described later in this white paper.
 
-You can give each task a page, or you can group related tasks together in a page, such as tasks related to a particular feature. As well as grouping related tasks in single pages, you can also group task pages in nested folders with an index page as an overview, as seen in this example site. Or if you have a small docset like the [Docsy User Guide](https://docsy.dev/docs/) with no Tutorials or Concepts pages, consider adding your feature-specific pages at the top level of your docs rather than in a Tasks section. 
+Whichever path we choose—the creation of an isolated silo of technology or the utility belt of tools—there are some data-wrangling capabilities it seems Web users should be getting for free, but aren't. These could be part of a Zen Manifesto:
 
-Each task should give the user
-
-* The prerequisites for this task, if any (this can be specified at the top of a multi-task page if they're the same for all the page's tasks. "All these tasks assume that you understand....and that you have already....").
-* What this task accomplishes.
-* Instructions for the task. If it involves editing a file, running a command, or writing code, provide code-formatted example snippets to show the user what to do! If there are multiple steps, provide them as a numbered list.
-* If appropriate, links to related concept, tutorial, or example pages.
-
+1. Simple copying, cutting, and pasting of text, images, HTML components, and widgets should be possible. It should be possible to save various versions of these copied or cut items in a repertoire of patterns—with or without the text and images, with or without style classes, with or without style overrides. It should be possible to add parameters to the patterns so they can be used to easiy add to the Web. The patterns should be stored in a version control system that makes branching of versions very easy, as Git{{< fnref 52 >}} does.
+1. The Web user should have the ability to create spreadsheets (like Google Sheets{{< fnref 53 >}} via simple drag-and-drop. It should be possible to drag and drop whole cells, rows, and tables without even double-clicking and swiping the mouse pointer across words. These spreadsheets should be able to include images.

@@ -3,80 +3,35 @@ title: "Diving Deeper: Zen According to The Elements of User Experience"
 linkTitle: "Diving Deeper: Zen According to The Elements of User Experience"
 weight: 8
 description: >
-  How to contribute to the docs
+  The stragy framework for the development of Zen.
 type: docs
 ---
 
-{{% pageinfo %}}
-These basic sample guidelines assume that your Docsy site is deployed using Netlify and your files are stored in GitHub. You can use the guidelines "as is" or adapt them with your own instructions: for example, other deployment options, information about your doc project's file structure, project-specific review guidelines, versioning guidelines, or any other information your users might find useful when updating your site. [Kubeflow](https://github.com/kubeflow/website/blob/master/README.md) has a great example.
+Jesse James Garrett, who coined the term AJAX, wrote an influential book entitled The Elements of User Experience{{< fnref 54 >}}, which will serve to inform the strategy for the development of Zen. (The acronym AJAX refers to a set of Web technologies that enable the Web to be used as a remote software interface and employing JavaScript and asynchronous HTTP requests.) Garrett's elements are summarized in a chart{{< fnref 55 >}}. The "Surface Plane" described in that book corresponds roughly to the concerns of the Red End; the "Strategy Plane" to the concerns of the Violet End.
 
-Don't forget to link to your own doc repo rather than our example site! Also make sure users can find these guidelines from your doc repo README: either add them there and link to them from this page, add them here and link to them from the README, or include them in both locations.
-{{% /pageinfo %}}
+## User Needs for a "Zen Website"
 
-We use [Hugo](https://gohugo.io/) to format and generate our website, the
-[Docsy](https://github.com/google/docsy) theme for styling and site structure, 
-and [Netlify](https://www.netlify.com/) to manage the deployment of the site. 
-Hugo is an open-source static site generator that provides us with templates, 
-content organisation in a standard directory structure, and a website generation 
-engine. You write the pages in Markdown (or HTML if you want), and Hugo wraps them up into a website.
+There is a very specific set of user needs that a "Zen website" could uniquely fulfil. At least some of these are:
 
-All submissions, including submissions by project members, require review. We
-use GitHub pull requests for this purpose. Consult
-[GitHub Help](https://help.github.com/articles/about-pull-requests/) for more
-information on using pull requests.
+1. A Web CMS that eschews text-based "code" in favor of a direct manipulation interface (DMI).
+1. A Web CMS that excels in the management of intermeshed or intertwined trees and meshes of data of many types: Document Object Models (DOMs, including shadow DOMs), including at least nodes implementing the HTMLElement, Attr, and Text interfaces; CSS classes; and link trees and meshes. See "DOM Standard",{{< fnref 56 >}} published by the WHATWG community.
+1. A Web CMS (or WCMS) that can nest web components and widgets with no arbitrary limit.
+1. An easy way to consume and perhaps even interrelate Web schema. (See schema.org.{{< fnref 57 >}})
 
-## Quick start with Netlify
+## Site Objectives of a "Zen Website"
 
-Here's a quick guide to updating the docs. It assumes you're familiar with the
-GitHub workflow and you're happy to use the automated preview of your doc
-updates:
+If there is a site objective, then there must be a website. If that website has a tight focus, it must be oriented toward a particular segment of its entire potential user population (that is, anyone who comes to the website). My initial attempt to segment users was this:
 
-1. Fork the [Goldydocs repo](https://github.com/google/docsy-example) on GitHub.
-1. Make your changes and send a pull request (PR).
-1. If you're not yet ready for a review, add "WIP" to the PR name to indicate 
-  it's a work in progress. (**Don't** add the Hugo property 
-  "draft = true" to the page front matter, because that prevents the 
-  auto-deployment of the content preview described in the next point.)
-1. Wait for the automated PR workflow to do some checks. When it's ready,
-  you should see a comment like this: **deploy/netlify — Deploy preview ready!**
-1. Click **Details** to the right of "Deploy preview ready" to see a preview
-  of your updates.
-1. Continue updating your doc and pushing your changes until you're happy with 
-  the content.
-1. When you're ready for a review, add a comment to the PR, and remove any
-  "WIP" markers.
+1. Users who are only fluent in the most basic Web-application constructs: URLs (or URIs), browsers, windows, links, and maybe simple, clear buttons.
+1. Users who are fluent in most of the basic, modern user interface patterns used in modern Web applications like those described in the Yahoo Design Pattern Library{{< fnref 58 >}}, such as Top Navigation, Accordion, Breadcrumbs, Tabs, Navigation Bar, Calendar Picker, Collapse Transition, Expand Transition, Slide Transition, and Drag and Drop.
+1. Users with enough prior experience and intelligence to quickly adopt new methods of interaction with computers, such as a Windows user who can adapt to an Apple laptop computer, or a user who can learn about dragging and dropping URLs into a web browser or a images from the web browser to the desktop.
+1. Users who can productively use a complex, specialized Web application such as a Web-page design application, an application for photo manipulation, a paint application, an application for technical analysis of financial data—an application that typically cannot be learned in less than an hour. Some of the barriers to learning such an application more quickly are jargon, densely packed user interface elements, and domain-specific knowledge.
+1. A bit of reflection and research determined that I need to seek out experts' Web user segmentation. That quickly turned up the topic of "web analytics user segmentation", where there is much good information available for free. However, "levels of Web user ability" is a topic I have not explored much at all. It appears there is some very good guidance in the blog entry "Enabling new types of web user experiences". A key insight in that post is that currently the dominant model of how web apps should be experienced is that they should be "web ports" of iPhone apps. The author of the post believes that is aiming far too low in aspiration. He gives some examples of devices like doorknobs and toasters broadcasting web services over Bluetooth or WiFi. Such ideas, while not directly providing much help to Zen development, provide inspiration for the necessary lateral thinking.
 
-## Updating a single page
+Some Zen website use cases could be:
 
-If you've just spotted something you'd like to change while using the docs, Docsy has a shortcut for you:
-
-1. Click **Edit this page** in the top right hand corner of the page.
-1. If you don't already have an up to date fork of the project repo, you are prompted to get one - click **Fork this repository and propose changes** or **Update your Fork** to get an up to date version of the project to edit. The appropriate page in your fork is displayed in edit mode.
-1. Follow the rest of the [Quick start with Netlify](#quick-start-with-netlify) process above to make, preview, and propose your changes.
-
-## Previewing your changes locally
-
-If you want to run your own local Hugo server to preview your changes as you work:
-
-1. Follow the instructions in [Getting started](/docs/getting-started) to install Hugo and any other tools you need. You'll need at least **Hugo version 0.45** (we recommend using the most recent available version), and it must be the **extended** version, which supports SCSS.
-1. Fork the [Goldydocs repo](https://github.com/google/docsy-example) repo into your own project, then create a local copy using `git clone`. Don’t forget to use `--recurse-submodules` or you won’t pull down some of the code you need to generate a working site.
-
-    ```
-    git clone --recurse-submodules --depth 1 https://github.com/google/docsy-example.git
-    ```
-
-1. Run `hugo server` in the site root directory. By default your site will be available at http://localhost:1313/. Now that you're serving your site locally, Hugo will watch for changes to the content and automatically refresh your site.
-1. Continue with the usual GitHub workflow to edit files, commit them, push the
-  changes up to your fork, and create a pull request.
-
-## Creating an issue
-
-If you've found a problem in the docs, but you're not sure how to fix it yourself, please create an issue in the [Goldydocs repo](https://github.com/google/docsy-example/issues). You can also create an issue about a specific page by clicking the **Create Issue** button in the top right hand corner of the page.
-
-## Useful resources
-
-* [Docsy user guide](https://www.docsy.dev/docs/): All about Docsy, including how it manages navigation, look and feel, and multi-language support.
-* [Hugo documentation](https://gohugo.io/documentation/): Comprehensive reference for Hugo.
-* [Github Hello World!](https://guides.github.com/activities/hello-world/): A basic introduction to GitHub concepts and workflow.
-
-
+1. Organizing the user's own text collections as hypertext in order to manage relationships between various pieces of information, particularly hypertext documents
+1. Creating a "notebook" or "log"
+1. Creating a Web app for further personal Web exploration and use
+1. Creating a website or Web app for creative or commercial use
+1. Create any kind of webiste by doing the front-end design, the front-end programming, and the backend programming

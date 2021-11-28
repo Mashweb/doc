@@ -4,211 +4,28 @@ linkTitle: "Scope of the issues Zen will address"
 weight: 4
 date: 2017-01-05
 description: >
-  A short lead description about this content page. It can be **bold** or _italic_ and can be split over multiple paragraphs.
+  (This section needs a complete overhaul. Possibly the spectrum analogy should be taken out.)
 type: docs
 ---
 
-{{% pageinfo %}}
-This is a placeholder page. Replace it with your own content.
-{{% /pageinfo %}}
+We must determine the scope of the issues Zen will address, which appears to be huge. Zen is meant to offer a uniquely democratizing way of creating web experiences by avoiding code and instead allowing a Zen user a way to directly manipulate every parameter of his web page to which a metaphor can be applied: block elements can be resized by grabbing their edges; block, inline, and inline-block elements can be grabbed and rearranged; etc. Every time the user changes an aspect of style via Zen, Zen will optionally apply the change to the memory-resident stylesheet holding the previous value of that style or to a new memory-resident stylesheet specific to the element selected for the style. Other options, such as applying the change to a selector chosen or created by Zen, will be offered (to be determined).
 
-Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://gohugo.io) should be blue with no underlines (unless hovered over).
+This approach is unique in its direct change at the canvas level and in its propagation of changes backward to page source. (See, however, [Hybrid HTML/DOM Editors](https://gingkoapp.com/hybrid-dom-editors.html).) Nowdays the creation of web experiences is managed by a galaxy of software packages and services, JavaScript libraries, and CSS libraries, but by viewing this galaxy through the prism of the question "What level of detail does the package or service address," each package and service can be tentatively placed somewhere along a spectrum. [An image is to be included here.] At one end of the spectrum, users or developers deal directly with HTML, CSS, and images, crafting the details of web pages individually, with no further abstraction or intermediation. At the other end of the spectrum, users or developers have at their disposal many abstractions and are coaxed or prodded into dealing with higher-level concerns like minimization of web assets, quick development, responsive design, patterns, standards, metaphors, and affordances. There are problems with this oversimplification, of course, and some packages and services should appear more as a blob rather than as a single point on the spectrum, but the metaphor of a spectrum enables us to filter an unmanageably long list of web technologies so we can concentrate on comparing like with like. Towards one end of the spectrum (the brass-tacks end) is an enormous set of front-end (JavaScript and CSS libraries and toolkits) and back-end (web servers with CGI capabilities), purely for hand-coded website creation, serving, and management, including the management of website-triggered ancilary services like email and payments. Let us call this the "Red End" of the web software and services spectrum. It allows the web developer complete control of his website at the expense of getting his hands very dirty. Right at the Red End, he directly controls every character of his every web page and, if applicable, every table and query definition in his back-end database. A developer working slightly removed from the extreme Red End probably engages with templates, themes, and skins. He might also use plugins. Anywhere close to the Red End or right at the Red End, the developer might use a content management system (CMS) or blog software to create a database-driven dynamic website or a static website (such as Moveable Type used to generate).
 
-There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.
+The Red End originally comprised just text editors, web servers, and web browsers and was designed and built to use a stateless protocol for transporting hypertext documents. The web was later retrofitted with mobile scripting languages Java and JavaScript to create a platform for distributed applications. Web servers eventually developed sufficiently to support collaborative authoring applications. One cycle of development was thus completed, bringing the web back around to Berner-Lee's original dream of collaborative authoring, but Berners-Lee's original vision of a simple, easy, collaborative authoring tool for everyone lost out to the current ad hoc23 proliferation of non-standard, anonymous, front-end tools.24 These anonymous tools typically do not offer web-technology dilettantes and web power-users the facility to add nested structure to HTML; to add JavaScript-backed widgets like AngularJS, Dojo, ExtJS, jQuery UI, or web-component widgets; to add web forms; to develop CSS class hierarchies and frameworks; or even to collaborate in a structured way. The Red End for nontechnical people can usually only create flat, static layouts of single pages, not complicated, dynamic structures, and it often emphasizes a code view of web pages (raw HTML and CSS) as much as a WYSIWYG view of pages. Thus the Red End for nontechnical people is not very powerful and often is hard to use. Meanwhile, on the back end, control of the web frameworks is mostly left up to programmer-specialists.
 
-90's four loko seitan photo booth gochujang freegan tumeric listicle fam ugh humblebrag. Bespoke leggings gastropub, biodiesel brunch pug fashion axe meh swag art party neutra deep v chia. Enamel pin fanny pack knausgaard tofu, artisan cronut hammock meditation occupy master cleanse chartreuse lumbersexual. Kombucha kogi viral truffaut synth distillery single-origin coffee ugh slow-carb marfa selfies. Pitchfork schlitz semiotics fanny pack, ugh artisan vegan vaporware hexagon. Polaroid fixie post-ironic venmo wolf ramps **kale chips**.
+Nowdays many web applications are built inside walled gardens. Even IDEs like Eclipse, IntelliJ IDEA, NetBeans are in at least a small sense walled gardens because they impose their own formatting upon source-code files. Many amateur and professional developers do web development using rigid software web application servers that sell for hundreds of thousands of dollars, such as IBM WebSphere Application Server and Red Hat JBoss. Developers who use such application servers often deal with rigidly defined software modules rather than more basic APIs like RDBMS queries and JavaScript library APIs. Nowdays most online collaboration by nontechnical people does not involve the restructuring of web pages or websites. Instead, it only involves the insertion of data, such as blog or forum posts, into databases, to be queried later. This is a very strict limitation. Let us call web application servers and web services the "Violet End" of the web-development level-of-detail spectrum. It is imminently possible to imagine highly flexible, desktop-app-inspired table, form, query, and report design being built into the Violet End, but such capabilities are not common. Nontechnical people are offered very few simple ways to program websites. The latest and greatest "web experience management" software and services promise to bundle all that is needed to handle ... [to be filled in later]. Given the vastness of the field and the inconceivability of a way to integrate all such facilities, they end up with only the appeal of preserved and prepackaged frozen meals. Furthermore, although there are hundreds or thousands of useful web services that can be tapped, very often for free, specialist programming is necessary to use them.
 
-> There should be no margin above this first sentence.
->
-> Blockquotes should be a lighter gray with a border along the left side in the secondary color.
->
-> There should be no margin below this final sentence.
+There are many difficulties or problems in implementing simple ideas on the Web due to complexities at the Red End and the leaky abstractions at the Violet End. First we shall list just a few of those problems—not in a very systematic way, but almost like a small collection of anecdotes. After creating an initial small list of problems, we shall take an initial, inadequate stab at listing a set of "solutions". After this first, inadequate attempt, we shall delineate the method we are adopting to conquer them with a set of technologies I have loosely been calling "Zen". Finally, we shall attempt to discover a systematic way of cataloging problems with the Web experience so that functional specifications can be created for software layers and modules to improve the Web experience systematically.
 
-## First Header 2
+Problem #1: Paucity of means for nontechnical people to author Web documents and websites. One of the biggest problems or shortcomings of current web browsers is their lack of authoring facilities.
 
-This is a normal paragraph following a header. Knausgaard kale chips snackwave microdosing cronut copper mug swag synth bitters letterpress glossier **craft beer**. Mumblecore bushwick authentic gochujang vegan chambray meditation jean shorts irony. Viral farm-to-table kale chips, pork belly palo santo distillery activated charcoal aesthetic jianbing air plant woke lomo VHS organic. Tattooed locavore succulents heirloom, small batch sriracha echo park DIY af. Shaman you probably haven't heard of them copper mug, crucifix green juice vape *single-origin coffee* brunch actually. Mustache etsy vexillologist raclette authentic fam. Tousled beard humblebrag asymmetrical. I love turkey, I love my job, I love my friends, I love Chardonnay!
+Problem #2: No utility for Web copy/cut/paste/mashup. To effectively manage the tremendous load of linked information raining down on him, the Web user should have a robust utility for managing hypermedia in the native environment in which he encounters that hypermedia—the Web environment. A utility built upon the Web can have features that a desktop utility cannot have, foremost of which are instantaneous change and ubiquitous access. The Web user should have high-quality, proven Web user interface shortcuts most appropriate to manipulating information from the Web—for example, the "Rich Interaction" patterns described in the Yahoo Design Pattern Library—so he can quickly clip, mash together, and rearrange information from the Web. This interface must interwork with any A-grade web browser. Incomplete, specialized, "opinionated" services, such as EverNote and Instapaper, do not support the ad hoc creation of drawers, panels, and dialogs, which are necessary to cut, paste, transclude{{< fnref 37 >}}, organize, associate, link, tag, and hide blocks of information. This problem is inherently related to Problem #1, but it is also related to various Web standards, such as the X-Frame-Options standard.{{< fnref 38 >}}
 
-Deae legum paulatimque terra, non vos mutata tacet: dic. Vocant docuique me plumas fila quin afuerunt copia haec o neque.
+Problem #3: Limits to the ability to remember paths through the hypermedia sphere. In 2016, decades after the invention of virtual memory, web browsers still can't get enough memory, causing themselves and their host operating systems to malfunction, to crash, or to function poorly. Never mind the waste of the Web user's time. When the "too many tabs" problem forces the user to close tabs, or causes the browser to slow to a crawl, or crashes the browser, the reminders to the user about how he discovered the Web pages he visited get lost. This is a travesty because many of the user's research insights are won by a hard, painful, lengthy search.{{< fnref 39 >}} For now, the problem can only be somewhat ameliorated by adopting rare, non-free tools, such as the Tabs Outliner plugin for the Chrome web browser.{{< fnref 40 >}} The right juxtaposition, encapsulation, and highlighting of blocks of information would make it unnecessary to keep open many browser tabs at once and would make it possible to record the user's path through the hypermedia sphere. To make these kinds of arrangement easy, a new utility is necessary.
 
-On big screens, paragraphs and headings should not take up the full container width, but we want tables, code blocks and similar to take the full width.
+Problem #4: Bookmark managers inbuilt to web browsers are inadequate for their main purpose. They are too slow to respond to user input. Furthermore, they do not have even the most basic, useful organizational utilities— for example, an interface, such as the desktop's drag-and-drop interface for folders and files, or automatic Web-page-content indexing and retrieval based upon content. Many web services that analyze websites could be proxied automatically by the Web browser: services such as Alexa.com (formerly providing free information), the WHOIS service, and Yahoo's free web service that provides semantic analysis of a website and provides a description of that website.{{< fnref 41 >}} Inbuilt bookmark managers are tied to a particular web browser, which forces dependency upon the user—not a good thing.
 
-Scenester tumeric pickled, authentic crucifix post-ironic fam freegan VHS pork belly 8-bit yuccie PBR&B. **I love this life we live in**.
+Problem #5: Lack of personal ownership of bookmarks. Web services such as Xmarks, which archive a user's bookmarks, force the user to give up ultimate responsibility for his own bookmarks and put the bookmarks into the hands of a company or organisation that could go out of existence or suspend services.{{< fnref 42 >}}<sup>, </sup>{{< fnref 43 >}}<sup>, </sup>{{< fnref 44 >}}. Xmarks was even made unavailable for awhile in India by court order.{{< fnref 45 >}} In the last few years there has been panic{{< fnref 46 >}}<sup>, </sup>{{< fnref 47 >}} and uncertainty{{< fnref 48 >}}<sup>, </sup>{{< fnref 49 >}} surrounding the spate of security breaches by web services that have revealed clients' sensitive data, such as usernames, passwords, and credit-card credentials.{{< fnref 50 >}}<sup>, </sup>{{ fnref 51 >}} There should be a utility to make a Web user's bookmarks available offline and/or on the user's own website.
 
-
-## Second Header 2
-
-> This is a blockquote following a header. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.
-
-### Header 3
-
-```
-This is a code block following a header.
-```
-
-Next level leggings before they sold out, PBR&B church-key shaman echo park. Kale chips occupy godard whatever pop-up freegan pork belly selfies. Gastropub Belinda subway tile woke post-ironic seitan. Shabby chic man bun semiotics vape, chia messenger bag plaid cardigan. 
-
-#### Header 4
-
-* This is an unordered list following a header.
-* This is an unordered list following a header.
-* This is an unordered list following a header.
-
-##### Header 5
-
-1. This is an ordered list following a header.
-2. This is an ordered list following a header.
-3. This is an ordered list following a header.
-
-###### Header 6
-
-| What      | Follows         |
-|-----------|-----------------|
-| A table   | A header        |
-| A table   | A header        |
-| A table   | A header        |
-
-----------------
-
-There's a horizontal rule above and below this.
-
-----------------
-
-Here is an unordered list:
-
-* Liverpool F.C.
-* Chelsea F.C.
-* Manchester United F.C.
-
-And an ordered list:
-
-1. Michael Brecker
-2. Seamus Blake
-3. Branford Marsalis
-
-And an unordered task list:
-
-- [x] Create a Hugo theme
-- [x] Add task lists to it
-- [ ] Take a vacation
-
-And a "mixed" task list:
-
-- [ ] Pack bags
-- ?
-- [ ] Travel!
-
-And a nested list:
-
-* Jackson 5
-  * Michael
-  * Tito
-  * Jackie
-  * Marlon
-  * Jermaine
-* TMNT
-  * Leonardo
-  * Michelangelo
-  * Donatello
-  * Raphael
-
-Definition lists can be used with Markdown syntax. Definition headers are bold.
-
-Name
-: Godzilla
-
-Born
-: 1952
-
-Birthplace
-: Japan
-
-Color
-: Green
-
-
-----------------
-
-Tables should have bold headings and alternating shaded rows.
-
-| Artist            | Album           | Year |
-|-------------------|-----------------|------|
-| Michael Jackson   | Thriller        | 1982 |
-| Prince            | Purple Rain     | 1984 |
-| Beastie Boys      | License to Ill  | 1986 |
-
-If a table is too wide, it should scroll horizontally.
-
-| Artist            | Album           | Year | Label       | Awards   | Songs     |
-|-------------------|-----------------|------|-------------|----------|-----------|
-| Michael Jackson   | Thriller        | 1982 | Epic Records | Grammy Award for Album of the Year, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&B Album, Brit Award for Best Selling Album, Grammy Award for Best Engineered Album, Non-Classical | Wanna Be Startin' Somethin', Baby Be Mine, The Girl Is Mine, Thriller, Beat It, Billie Jean, Human Nature, P.Y.T. (Pretty Young Thing), The Lady in My Life |
-| Prince            | Purple Rain     | 1984 | Warner Brothers Records | Grammy Award for Best Score Soundtrack for Visual Media, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&B Album, Brit Award for Best Soundtrack/Cast Recording, Grammy Award for Best Rock Performance by a Duo or Group with Vocal | Let's Go Crazy, Take Me With U, The Beautiful Ones, Computer Blue, Darling Nikki, When Doves Cry, I Would Die 4 U, Baby I'm a Star, Purple Rain |
-| Beastie Boys      | License to Ill  | 1986 | Mercury Records | noawardsbutthistablecelliswide | Rhymin & Stealin, The New Style, She's Crafty, Posse in Effect, Slow Ride, Girls, (You Gotta) Fight for Your Right, No Sleep Till Brooklyn, Paul Revere, Hold It Now, Hit It, Brass Monkey, Slow and Low, Time to Get Ill |
-
-----------------
-
-Code snippets like `var foo = "bar";` can be shown inline.
-
-Also, `this should vertically align` ~~`with this`~~ ~~and this~~.
-
-Code can also be shown in a block element.
-
-```
-foo := "bar";
-bar := "foo";
-```
-
-Code can also use syntax highlighting.
-
-```go
-func main() {
-  input := `var foo = "bar";`
-
-  lexer := lexers.Get("javascript")
-  iterator, _ := lexer.Tokenise(nil, input)
-  style := styles.Get("github")
-  formatter := html.New(html.WithLineNumbers())
-
-  var buff bytes.Buffer
-  formatter.Format(&buff, style, iterator)
-
-  fmt.Println(buff.String())
-}
-```
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-Inline code inside table cells should still be distinguishable.
-
-| Language    | Code               |
-|-------------|--------------------|
-| Javascript  | `var foo = "bar";` |
-| Ruby        | `foo = "bar"{`      |
-
-----------------
-
-Small images should be shown at their actual size.
-
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Picea_abies_shoot_with_buds%2C_Sogndal%2C_Norway.jpg/240px-Picea_abies_shoot_with_buds%2C_Sogndal%2C_Norway.jpg)
-
-Large images should always scale down and fit in the content container.
-
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Picea_abies_shoot_with_buds%2C_Sogndal%2C_Norway.jpg/1024px-Picea_abies_shoot_with_buds%2C_Sogndal%2C_Norway.jpg)
-
-_The photo above of the Spruce Picea abies shoot with foliage buds: Bjørn Erik Pedersen, CC-BY-SA._
-
-
-## Components
-
-### Alerts
-
-{{< alert >}}This is an alert.{{< /alert >}}
-{{< alert title="Note" >}}This is an alert with a title.{{< /alert >}}
-{{% alert title="Note" %}}This is an alert with a title and **Markdown**.{{% /alert %}}
-{{< alert color="success" >}}This is a successful alert.{{< /alert >}}
-{{< alert color="warning" >}}This is a warning.{{< /alert >}}
-{{< alert color="warning" title="Warning" >}}This is a warning with a title.{{< /alert >}}
-
-
-## Another Heading
+Problem #6: There is no universally available bookmark file facility. Online collaboration is not supported by good integration of bookmark files with the OS desktop. For example, on a Mac, dragging a URL from Safari's address bar to the desktop creates a file with type "webloc" that MS Windows does not understand by default. It is possible to create a file with type "url" that Windows, Mac, and Ubuntu all understand, but this is not currently happening.
