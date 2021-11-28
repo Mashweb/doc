@@ -74,46 +74,46 @@ Wikipedia, <a href="http://web.archive.org/web/20160923045859/https://en.wikiped
 Wikipedia, <a href="https://en.wikipedia.org/wiki/List_of_augmented_browsing_software">"List of augmented browsing software"</a>, archived version, Wikipedia.org, retrieved November 25, 2016.
     </li>
     <li id="fn:21">
-Rick Santos, May 14, 2014, "Why ContentEditable is Terrible—Or: How the Medium Editor Works", Medium Engineering, retrieved September 11, 2016.
+Rick Santos, May 14, 2014, <a href="https://medium.engineering/why-contenteditable-is-terrible-122d8a40e480#.dw8d785j2">"Why ContentEditable is Terrible—Or: How the Medium Editor Works"</a>, Medium Engineering, retrieved September 11, 2016.
     </li>
     <li id="fn:22">
-Piotrek Koszuliński, August 13, 2015, "ContentEditable — The Good, the Bad and the Ugly", Medium, retrieved September 21, 2016.
+Piotrek Koszuliński, August 13, 2015, <a href="https://medium.com/content-uneditable/contenteditable-the-good-the-bad-and-the-ugly-261a38555e9c#.wczx4t3am">"ContentEditable — The Good, the Bad and the Ugly"</a>, Medium, retrieved September 21, 2016.
     </li>
     <li id="fn:23">
-Dan Dascalescu, September 6, 2016, "Comparison of JavaScript WYSIWYG editors", Github, retrieved September 21, 2016.
+Dan Dascalescu, September 6, 2016, <a href="https://github.com/iDoRecall/comparisons/blob/master/JavaScript-WYSIWYG-editors.md">"Comparison of JavaScript WYSIWYG editors"</a>, Github, retrieved September 21, 2016.
     </li>
     <li id="fn:24">
-"WYMeditor", Wikipedia, retrieved August 31, 2016.
+<a href="https://en.wikipedia.org/wiki/WYMeditor">"WYMeditor"</a>, Wikipedia, retrieved August 31, 2016.
     </li>
     <li id="fn:25">
-David Ungar, abstract entitled "Self and self: whys and wherefores", Stanford.edu, retrieved August 8, 2016.
+David Ungar, <a href="http://web.stanford.edu/class/ee380/Abstracts/090930.html">abstract entitled "Self and self: whys and wherefores"</a>, Stanford.edu, retrieved August 8, 2016.
     </li>
     <li id="fn:26">
-David Ungar, September 30, 2009, video entitled "Self and Self: Whys and Wherefores", YouTube.com, retrieved August 8, 2016.
+David Ungar, September 30, 2009, <a href="https://youtu.be/3ka4KY7TMTU">video entitled "Self and Self: Whys and Wherefores"</a>, YouTube.com, retrieved August 8, 2016.
     </li>
     <li id="fn:27">
-Dan Ingalls, "The Live Web. Drag 'n drop in the cloud", YouTube.com, retrieved August 11, 2016.
+Dan Ingalls, <a href="https://youtu.be/QTJRwKOFddc">"The Live Web. Drag 'n drop in the cloud"</a>, YouTube.com, retrieved August 11, 2016.
     </li>
     <li id="fn:28">
-"Lively Kernel", lively-kernel.org, retrieved August 11, 2016.
+<a href="http://lively-kernel.org/">"Lively Kernel"</a>, lively-kernel.org, retrieved August 11, 2016.
     </li>
     <li id="fn:29">
-"DOM—Living Standard", WHATWG.org, retrieved August 11, 2016.
+<a href="https://dom.spec.whatwg.org/">"DOM—Living Standard"</a>, WHATWG.org, retrieved August 11, 2016.
     </li>
     <li id="fn:30">
-"Document Object Model FAQ", w3c.org, retrieved September 1, 2016.
+<a href="https://www.w3.org/DOM/faq.html">"Document Object Model FAQ"</a>, w3c.org, retrieved September 1, 2016.
     </li>
     <li id="fn:31">
-"Inspector", Squeak.org, retrieved October 10, 2016.
+<a href="http://wiki.squeak.org/squeak/2175">"Inspector"</a>, Squeak.org, retrieved October 10, 2016.
     </li>
     <li id="fn:32">
-"Abstract syntax tree", Wikipedia, retrieved September 1, 2016.
+<a href="https://en.wikipedia.org/wiki/Abstract_syntax_tree">"Abstract syntax tree"</a>, Wikipedia, retrieved September 1, 2016.
     </li>
     <li id="fn:33">
-"Controlling box generation", Section 9.2 of "Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification" W3C Recommendation, retrieved September 1, 2016.
+<a href="https://www.w3.org/TR/CSS2/visuren.html#box-gen">"Controlling box generation"</a>, Section 9.2 of "Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification" W3C Recommendation, retrieved September 1, 2016.
     </li>
     <li id="fn:34">
-David Madore, "A page about call/cc", www.madore.org, retrieved September 1, 2016.
+David Madore, <a href="http://www.madore.org/~david/computers/callcc.html">"A page about call/cc"</a>, www.madore.org, retrieved September 1, 2016.
     </li>
     <li id="fn:35">
 <a href="https://scratch.mit.edu">Scratch</a>
@@ -122,73 +122,73 @@ David Madore, "A page about call/cc", www.madore.org, retrieved September 1, 201
 <a href="https://snap.berkeley.edu">Snap!</a>
     </li>
     <li id="fn:37">
-"Transclusion", Wikipedia, retrieved July 12, 2016.
+<a href="https://en.wikipedia.org/wiki/Transclusion">"Transclusion"</a>, Wikipedia, retrieved July 12, 2016.
     </li>
     <li id="fn:38">
-"X-Frame-Options", Mozilla Developer Network, retrieved July 8, 2016.
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options">"X-Frame-Options"</a>, Mozilla Developer Network, retrieved July 8, 2016.
     </li>
     <li id="fn:39">
-"chrome memory usage - Google Search", Google, retrieved July 8, 2016.
+<a href="http://doc.mashweb.club/whitepaper/google.com/search?q=chrome+memory+usage">"chrome memory usage - Google Search"</a>, Google, retrieved July 8, 2016.
     </li>
     <li id="fn:40">
-"Tabs Outliner - Chrome Web Store", Google, retrieved July 8, 2016.
+<a href="https://chrome.google.com/webstore/detail/tabs-outliner/eggkanocgddhmamlbiijnphhppkpkmkl?hl=en">"Tabs Outliner - Chrome Web Store"</a>, Google, retrieved July 8, 2016.
     </li>
     <li id="fn:41">
-"Content Analysis Web Service", Yahoo! Developer Network, retrieved October 8, 2016.
+<a href="https://developer.yahoo.com/search/content/V2/contentAnalysis.html">"Content Analysis Web Service"</a>, Yahoo! Developer Network, retrieved October 8, 2016.
     </li>
     <li id="fn:42">
-"Xmarks company history", Wikipedia, retrieved July 8, 2016.
+<a href="https://en.wikipedia.org/wiki/Xmarks_Sync#Company_history">"Xmarks company history"</a>, Wikipedia, retrieved July 8, 2016.
     </li>
     <li id="fn:43">
-"Wikipedia category: Discontinued Google services", Wikipedia, retrieved July 8, 2016.
+<a href="https://en.wikipedia.org/wiki/Category:Discontinued_Google_services">"Wikipedia category: Discontinued Google services"</a>, Wikipedia, retrieved July 8, 2016.
     </li>
     <li id="fn:44">
-"6 Popular Google Products Which No Longer Exist", The Huffington Post, retrieved July 8, 2016.
+<a href="http://www.huffingtonpost.in/2016/04/14/discontinued-google-produ_n_9436180.html">"6 Popular Google Products Which No Longer Exist"</a>, The Huffington Post, retrieved July 8, 2016.
     </li>
     <li id="fn:45">
-"Xmarks domain blocked in India", Wikipedia, retrieved July 8, 2016.
+<a href="https://en.wikipedia.org/wiki/Xmarks_Sync#Xmarks_domain_blocked_in_India">"Xmarks domain blocked in India"</a>, Wikipedia, retrieved July 8, 2016.
     </li>
     <li id="fn:46">
-"Data Breach Tracker: All the Major Companies That Have Been Hacked", Time, retrieved July 8, 2016.
+<a href="https://time.com/money/3528487/data-breach-identity-theft-jp-morgan-kmart-staples/">"Data Breach Tracker: All the Major Companies That Have Been Hacked"</a>, Time, retrieved July 8, 2016.
     </li>
     <li id="fn:47">
-"6 Biggest Business Security Risks and How You Can Fight Back", CIO, retrieved July 8, 2016.
+<a href="http://www.cio.com/article/2872517/data-breach/6-biggest-business-security-risks-and-how-you-can-fight-back.html">"6 Biggest Business Security Risks and How You Can Fight Back"</a>, CIO, retrieved July 8, 2016.
     </li>
     <li id="fn:48">
-"Firm That Exposed Breach Of 'Billion Passwords' Quickly Offered $120 Service To Find Out If You're Affected", Forbes, retrieved July 8, 2016.
+<a href="https://www.forbes.com/sites/kashmirhill/2014/08/05/huge-password-breach-shady-antics/#2cf211434769">"Firm That Exposed Breach Of 'Billion Passwords' Quickly Offered $120 Service To Find Out If You're Affected"</a>, Forbes, retrieved July 8, 2016.
     </li>
     <li id="fn:49">
-"How the Pwnedlist Got Pwned", KrebsonSecurity, retrieved July 8, 2016.
+<a href="https://krebsonsecurity.com/2016/05/how-the-pwnedlist-got-pwned/">"How the Pwnedlist Got Pwned"</a>, KrebsonSecurity, retrieved July 8, 2016.
     </li>
     <li id="fn:50">
-"Russian Hackers Amass Over a Billion Internet Passwords", The New York Times, retrieved July 8, 2016.
+<a href="https://www.nytimes.com/2014/08/06/technology/russian-gang-said-to-amass-more-than-a-billion-stolen-internet-credentials.html?_r=0">"Russian Hackers Amass Over a Billion Internet Passwords"</a>, The New York Times, retrieved July 8, 2016.
     </li>
     <li id="fn:51">
-"The Big Data Breaches of 2014", Forbes, retrieved July 8, 2016.
+<a href="https://www.forbes.com/sites/moneybuilder/2015/01/13/the-big-data-breaches-of-2014/#a5d08f53a48f">"The Big Data Breaches of 2014"</a>, Forbes, retrieved July 8, 2016.
     </li>
     <li id="fn:52">
-"Git", git-scm.com, retrieved July 12, 2016.
+<a href="https://git-scm.com/">"Git"</a>, git-scm.com, retrieved July 12, 2016.
     </li>
     <li id="fn:53">
-"Google Sheets - create and edit spreadsheets online, for free", Google, retrieved July 12, 2016.
+<a href="https://www.google.com/sheets/about/?gclid=CjwKEAjwqpK8BRD7ua-U0orrgkESJADlN3YBgbIrdrOIvuMfcqq7taN4Fy3v0WHTdXNLQHsVvpcmWxoCy57w_wcB">"Google Sheets - create and edit spreadsheets online, for free"</a>, Google, retrieved July 12, 2016.
     </li>
     <li id="fn:54">
-Jesse James Garrett, October 21, 2002, The Elements of User Experience: User-Centered Design for the Web, New Riders Publishing, New York.
+Jesse James Garrett, October 21, 2002, <a href="http://www.jjg.net/elements/"><cite>The Elements of User Experience: User-Centered Design for the Web</cite></a>, New Riders Publishing, New York.
     </li>
     <li id="fn:55">
-Jesse James Garrett, "The Elements of User Experience", jjg.net, retrieved September 1, 2016.
+Jesse James Garrett, <a href="http://www.jjg.net/elements/pdf/elements.pdf">"The Elements of User Experience"</a>, <a href="https://jjg.net">jjg.net</a>, retrieved September 1, 2016.
     </li>
     <li id="fn:56">
-"DOM Standard", WHATWG.org, retrieved October 10, 2016.
+<a href="https://dom.spec.whatwg.org/">"DOM Standard"</a>, WHATWG.org, retrieved October 10, 2016.
     </li>
     <li id="fn:57">
-"Home - schema.org", schema.org, retrieved October 10, 2016.
+<a href="https://schema.org/">"Home - schema.org"</a>, schema.org, retrieved October 10, 2016.
     </li>
     <li id="fn:58">
-"Yahoo Design Pattern Library", developer.yahoo.com, retrieved September 1, 2016.
+<a href="https://developer.yahoo.com/ypatterns/">"Yahoo Design Pattern Library"</a>, developer.yahoo.com, retrieved September 1, 2016.
     </li>
     <li id="fn:59">
-"Clipboard API and events", w3.org, retrieved September 1, 2016.
+<a href="https://www.w3.org/TR/clipboard-apis/">"Clipboard API and events"</a>, w3.org, retrieved September 1, 2016.
     </li>
 </ol>
 
