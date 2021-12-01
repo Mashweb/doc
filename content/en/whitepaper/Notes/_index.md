@@ -68,10 +68,10 @@ Wikipedia, <a href="http://web.archive.org/web/20161113103001/https://en.wikiped
 Wikipedia, <a href="https://en.wikipedia.org/wiki/Augmented_browsing">"Augmented browsing" (now redirects to "Browser extension")</a>, Wikipedia.org, retrieved November 28, 2021.
     </li>
     <li id="fn:19">
-Wikipedia, <a href="http://web.archive.org/web/20160923045859/https://en.wikipedia.org/wiki/List_of_augmented_browsing_software">"List of augmented browsing software"</a>, archived version, Wikipedia.org, retrieved November 25, 2016.
+Wikipedia, <a href="http://web.archive.org/web/20160923045859/https://en.wikipedia.org/wiki/List_of_augmented_browsing_software">"List of augmented browsing software"</a>, archived version, Wikipedia.org, retrieved November 28, 2021.
     </li>
     <li id="fn:20">
-Wikipedia, <a href="https://en.wikipedia.org/wiki/List_of_augmented_browsing_software">"List of augmented browsing software"</a>, archived version, Wikipedia.org, retrieved November 25, 2016.
+Wikipedia, <a href="https://en.wikipedia.org/wiki/List_of_augmented_browsing_software">"List of augmented browsing software"</a>, current version, Wikipedia.org, retrieved November 28, 2021.
     </li>
     <li id="fn:21">
 Nick Santos, May 14, 2014, <a href="https://medium.engineering/why-contenteditable-is-terrible-122d8a40e480#.dw8d785j2">"Why ContentEditable is Terrible—Or: How the Medium Editor Works"</a>, Medium Engineering, retrieved November 29, 2021.
