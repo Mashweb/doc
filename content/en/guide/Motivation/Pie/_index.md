@@ -9,6 +9,6 @@ type: docs
 
 Here are some articles in this section:
 
-* Zen: [Project #1](/guide/goals/pie/project_1): A Web Site and a New Technology to Help People Scale the Web
-* Zen: [First Principles](/guide/goals/pie/1st_principles)
-* Zen: [What Is it Most About?](/guide/goals/pie/what)
+* Zen: [Project #1](/guide/motivation/pie/project_1): A Web Site and a New Technology to Help People Scale the Web
+* Zen: [First Principles](/guide/motivation/pie/1st_principles)
+* Zen: [What Is it Most About?](/guide/motivation/pie/what)

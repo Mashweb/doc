@@ -1,18 +1,18 @@
 +++
-title = "Mashweb.Club"
-linkTitle = "Mashweb.Club"
+title = "Mashweb.Club Docs"
+linkTitle = "Mashweb.Club Docs"
 
 +++
 
-{{< blocks/cover title="Mashweb.Club's Docs & Demos" image_anchor="top" height="full" color="orange" >}}
+{{< blocks/cover title="Mashweb.Club's Documents" image_anchor="top" height="full" color="orange" >}}
 <div class="mx-auto">
-	<a class="btn btn-lg btn-primary mr-3 mb-4" href="{{< relref "/whitepaper" >}}">
+	<a class="btn btn-lg btn-primary mr-3 mb-4" href="{{< relref "/zen-white-paper" >}}">
 		Learn More <i class="fas fa-arrow-alt-circle-right ml-2"></i>
 	</a>
 	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="https://github.com/google/docsy-example">
 		Download <i class="fab fa-github ml-2 "></i>
 	</a>
-	<p class="lead mt-5">Mashweb.Club: Home of end-user-programmed web apps</p>
+	<p class="lead mt-5">Mashweb.Club: Home of user-programmed web apps</p>
 	{{< blocks/link-down color="info" >}}
 </div>
 {{< /blocks/cover >}}

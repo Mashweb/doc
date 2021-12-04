@@ -1,7 +1,7 @@
 
 ---
-title: "White Paper"
-linkTitle: "White Paper"
+title: "Zen White Paper"
+linkTitle: "Zen White Paper"
 weight: 20
 menu:
   main:
