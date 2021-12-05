@@ -1,5 +1,6 @@
 
 ---
+categories: ["white paper", "survey"]
 title: "Zen White Paper"
 linkTitle: "Zen White Paper"
 weight: 20
