@@ -1,7 +1,7 @@
 
 ---
-title: "Guide to the Zen Web App Framework and Mashweb"
-linkTitle: "Guide"
+title: "Guide to Mashweb and the Zen Web App Framework"
+linkTitle: "Mashweb Guide"
 weight: 30
 menu:
   main:
