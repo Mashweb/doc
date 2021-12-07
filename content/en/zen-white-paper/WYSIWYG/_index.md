@@ -10,11 +10,13 @@ description: >
 type: docs
 ---
 
-WYSIWYG stands for "What You See Is What You Get." All the well-known WYSIWYG web page composers, whether standalone or embedded, treat web-page composition like word processing&mdash;or like drawing&mdash;rather than like an organizational (structured, semantic, dynamic-design) problem. They work mainly on the superficial look of web pages. Typically they are designed merely to provide a gentle approach to HTML editing. They provide little help with powerful features of web applications like web pages that adjust themselves according to the type of media they appear on (e.g. phone, desktop, or paper); like reactive widgets; like dynamic (AJAX-enabled) web pages; and like structure based upon semantic meaning.
+WYSIWYG stands for “What You See Is What You Get.” All the well-known WYSIWYG web page composers, whether standalone or embedded, treat web-page composition like word processing—or like drawing—rather than like an organizational (structured, semantic, dynamic-design) problem. They work mainly on the superficial look of web pages. Typically they are designed merely to provide a gentle approach to HTML editing.
 
-They often sport a button to switch to an HTML-source view, as if copping-out when their visual paradigms fail. Their interfaces are reminiscent of IDEs (integrated development environments) or RAD (rapid application development) tools provided by large, complicated, programmer-oriented frameworks. Indeed, IDEs sometimes include WYSIWYG web page composers.
+Pages produced by such WYSIWYG page composers seldom help with the powerful possibilities of web applications.  Well-crafted web pages can adjust themselves according to the type of media they appear on (e.g., phone, desktop, or paper). They can be dynamic, using AJAX, which allows them to update parts of themselves quickly without reloading the whole page. They have reactive widgets. They have structures based upon semantic meaning.
 
-The HTML they produce tends not to be "clean" because it contains excess pieces of HTML and is not well-behaved, as explained by Nick Santos.{{< fnref 21 >}} The HTML they generate gets dirtier and dirtier as the user makes more and more changes to the web page.
+Contemporary WYSIWYG page composers often sport a button to switch to an HTML-source view, as if copping-out when their visual paradigms fail. Their interfaces are reminiscent of IDEs (integrated development environments) or RAD (rapid application development) tools provided by large, complicated, programmer-oriented frameworks. Indeed, IDEs sometimes include WYSIWYG web page composers.
+
+These page composers produce "dirty" HTML containing excess, unruly pieces of HTML, as explained by Nick Santos.{{< fnref 21 >}} The HTML they generate gets dirtier and dirtier as the user makes more and more changes to the web page.
 
 The thorny problem that web-page-embedded, JavaScript-based editors attempt to solve is that web browsers do not sufficiently support their tasks. The critical browser feature supporting web page editing is called `contentEditable`. Piotrek Koszuliński, the lead developer of *CKEditor*, wrote a detailed technical explanation of why `contentEditable` is flawed yet indispensable.{{< fnref 22 >}} Some of his points are:
 

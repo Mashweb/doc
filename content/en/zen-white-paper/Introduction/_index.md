@@ -5,7 +5,7 @@ title: "Introduction"
 linkTitle: "Introduction"
 weight: 1
 description: >
-  Zen: User-Programmed Web Applications
+  Zen: User-Programmed Web Applications.
 type: docs
 ---
 
@@ -13,10 +13,9 @@ This white paper presents the profoundly unique, personalized, and adaptable Zen
 
 {{< figure src="/images/programming.jpg" title="Old School">}}
 
-The answer to the first question, "Why would just anyone want to create web applications?" is that the web is the natural way to organize ideas and information in the digital age. The answer to the second question, "Why hasn't someone already made it possible?" has two parts. First the "group think" among programmers is so strong that no one has noticed the relevance of a little-studied capability of a little-studied programming language. This capability can shrink the programming task an order of magnitude and encourage the exploration of ambitious new paradigms of the user interface. Second, the new paradigms will enable Zen to work inside documents to build organized media rather than outside as a "bolted on" application. Working inside web pages will make Zen natural and powerful.
+The answer to the first question, "Why would just anyone want to create web applications?" is that the web is the natural way to organize ideas and information in the digital age. The ["Guide to Mashweb"](/guide) goes into depth about the problems people of the Digital Age encounter every day and proposes answers using Zen and Mashweb.
 
-
- The ["Guide to Mashweb"](/guide) goes into depth about the problems people of the Digital Age encounter every day and proposes answers using Zen and Mashweb. The current ["Zen White Paper"](/zen-white-paper) goes into depth on the subject of Zen, the key technology that would allow any literate person to stay web-immersed during the digital phase of their lives.
+The answer to the second question, "Why hasn't someone already made it possible?" has two parts. First, the "group think" among programmers is so strong that no one has noticed the relevance of a little-studied capability of a little-studied programming language. This capability can shrink the programming task an order of magnitude and encourage the exploration of ambitious new paradigms of the user interface. Second, the new paradigms will enable Zen to work inside documents to build organized media rather than outside as a "bolted on" application. Working inside web pages will make Zen natural and powerful. The current "Zen White Paper" goes into depth on the subject of Zen's key technologies.
 
 Zen's unique selling point (USP) will be in-context, instant feedback, *full-featured* editing of website or web application structure, function, and styling. Zen will make it easy for users to create valid HTML and styles in web pages without getting into the complexity or distraction of code. Zen users will quickly develop basic web application programs using visual-programming principles adopted from successful visual-programming languages for children. Most importantly, all this "development" and its *deployment* can be continuous, carried on by a *website's users* of all levels of experience. Deploying and sharing a new application could be as simple as clicking a *Share* button. Self-organizing Zen user communities might even develop novel applications.
 
@@ -48,10 +47,10 @@ Now, a quarter of a century later, the position of the A-grade web browsers{{< f
 {{< fnref 14 >}}<sup>, </sup>
 {{< fnref 15 >}}<sup>, </sup>
 {{< fnref 16 >}}
-as the central applications for online sharing seems unshakeable. Yet till today, not one A-grade web browser has full-fledged web-authoring capabilities. (We shall discuss the browser features _contentEditable_ and _designMode_ later, since these do not, without external programming, constitute web-authoring capabilities.) The direct descendents of Berners-Lee's early web-page editing application are visual web-page editors in three broad categories:
-1. in-browser rich-text editors. These are web-page-embedded, JavaScript-based, WYSIWYG web-page editors that convert HTML textarea fields or other HTML elements into editor instances. TinyMCE and CKeditor are typical examples.
-1. standalone WYSIWYG web-page editors that operate on web-page sources and show a preview of the resultant web page. Sources can be HTML or markup to be translated into HTML.
-1. WYSIWYM semantic web-page editors. Examples of this type of editor are WYMEditor, RDFaCE, BlueprintUI, PageDown, and Showdown. (The author needs to further investigate these editors.) Source can be HTML or markup that can be translated into HTML.
+as the central applications for online sharing seems unshakeable. Yet till today, not one A-grade web browser has full-fledged web-authoring capabilities. (We shall discuss the browser features _contentEditable_ and _designMode_ later, since these do not, without external programming, constitute web-authoring capabilities.) The direct descendents of Berners-Lee's early web-page editing application are visual web-page editors in three classes:
+1. the class of rich-text editor that is embedded right into a web page. (Programmers might like to know that these are WYSIWYG web-page editors that convert HTML `textarea` fields or other HTML elements into editor instances.) TinyMCE and CKeditor are typical examples.
+1. the class of standalone WYSIWYG web-page editor that operates on web-page sources and shows a preview of the resultant web page. Sources can be HTML or markup to be translated into HTML.
+1. the class of WYSIWYM semantic web-page editor. Examples of this type of editor are WYMEditor, RDFaCE, BlueprintUI, PageDown, and Showdown. (The author needs to further investigate these editors.) Source can be HTML or markup that can be translated into HTML.
 
 Apart from editors that only edit web pages, there are other tools and applications for developing web experiences:
 1. online web development tools for testing and debugging code (e.g. JSFiddle.net, CodePen.io, jsbin.com, etc.),
