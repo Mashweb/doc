@@ -11,9 +11,9 @@ description: >
 type: docs
 ---
 
-WYMeditor is the best-known WYSIWYM web page composer. *WYSIWYM* stands for *What You See Is What You Mean*. In a WYSIWYM editor the user creates a document with a *structure*. The *presentation* of the document is out of his hands. Separating content and structure from presentation makes it possible to view the document in many ways on many devices, which is a main principle of good web design.
+WYMeditor is the best-known WYSIWYM web page editor. *WYSIWYM* stands for *What You See Is What You Mean*. In a WYSIWYM editor, the user creates a document with *structured, meaningful content*. The *presentation* of the content is out of his hands. The separation of *content* from its *look and feel* makes it possible to view the document in many ways on many devices, which is a central principle of good web design.
 {{< figure src="/images/WYMeditor.png" title="WYMeditor" target="_blank" >}}
 
-Good as the WYSIWYM principle is for web design, WYMeditor has serious drawbacks. It is tricky to set up. A web page cannot embed it. According to the Wikipedia article on WYMeditor,{{< fnref 27 >}} "One downside of WYMeditor is that it cannot be used to include JavaScript in the content it edits. Changing this would require eliminating WYMeditor's use of the innerHtml property." Thus, WYMeditor won't work with reactive widgets.
+The WYSIWYM principle undoubtedly is suitable for web design, but WYMeditor has serious drawbacks. It was tricky to set up in the author's own experience. A web page cannot embed it. According to an old Wikipedia article on WYMeditor (now archived on Archive.org),{{< fnref 27 >}} "One downside of WYMeditor is that it cannot be used to include JavaScript in the content it edits. Changing this would require eliminating WYMeditor's use of the `innerHtml` property." Thus, WYMeditor won't work with reactive widgets.
 
-*This section might be expanded later to elaborate on WYSIWYM and to cover a representative set of WYSIWYM composers.*
+*The author might expand this section to cover a representative set of WYSIWYM composers.*

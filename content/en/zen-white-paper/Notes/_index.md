@@ -91,6 +91,7 @@ Jeferson Mari et al, September 27, 2021, <a href="https://github.com/JefMari/awe
     </li>
     <li id="fn:27">
 <a href="https://en.wikipedia.org/wiki/WYMeditor">"WYMeditor"</a>, Wikipedia, retrieved November 29, 2021.
+<a href="http://web.archive.org/web/20161224124827/https://en.wikipedia.org/wiki/WYMeditor">"WYMeditor"</a>, archived version, Wikipedia, retrieved December 8, 2021.
     </li>
     <li id="fn:28">
 <a href="https://en.wikipedia.org/wiki/Template_processor">"Template processor"</a>, Wikipedia, retrieved December 5, 2021.
