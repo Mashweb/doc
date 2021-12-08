@@ -21,5 +21,4 @@ As pointed out by David Ungar (who pioneered the type of prototypal object syste
 1. It will *complement*, *augment*, and *interact* with existing web page editors and website builders, not replace them.
 1. It will allow the Zen-editing of a web page to be locked, leaving intact the form and behavior it built inside the web page.
 1. Zen will not add more than 1&ndash;3 seconds to a web page's TTI (time to interact).
-1. Zen will not follow Lively Kernel's principle of implementing a scene graph.{{< fnref 27 >}} Instead, it will leverage the CSS2 visual formatting model{{< fnref 33 >}} to model a document in a web browser.
-1. Zen will not follow Lively Kernel's principle of implementing a scene graph.{{< fnref 27 >}} Instead, it will leverage the CSS2 visual formatting model{{< fnref 43 >}} in its modeling of a document in a web browser.  Zen will not be able use SVG or Canvas graphics for the creation of objects, except where particular Zen-composed apps borrow the pertinent capabilities from other software systems.
+1. Zen will not follow Lively Kernel's principle of implementing a scene graph.{{< fnref 37 >}} Instead, it will leverage the CSS2 visual formatting model{{< fnref 43 >}} to model a document in a web browser.
