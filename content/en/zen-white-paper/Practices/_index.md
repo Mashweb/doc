@@ -1,4 +1,6 @@
 ---
+categories: ["white paper"]
+tags: ["practices", "wysiwyg", "wysiwym", "website builder", "concession", "scope"]
 title: "Practices"
 linkTitle: "Practices"
 weight: 6

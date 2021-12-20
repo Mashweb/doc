@@ -1,4 +1,6 @@
 ---
+categories: ["white paper"]
+tags: ["website builder", "wcms", "cms", "wix.com", "weebly.com", "business type", "template", "plugin", "module", "font", "element", "node", "NodeList", "DOM", "grab", "drag", "metaphor", "drag-and-drop", "DMI", "direct manipulation", "interface", "move", "coordinate", "cut and paste", "block", "inline", "inline-block", "none", "live demo", "demo", "experiment", "15 puzzle", "JavaScript", "html", "css", "comment system", "forum", "wiki", "casual author"]
 title: "Zen vs. website builders"
 linkTitle: "Zen vs. website builders"
 weight: 2

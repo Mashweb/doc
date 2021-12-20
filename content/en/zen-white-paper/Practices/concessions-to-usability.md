@@ -1,4 +1,6 @@
 ---
+categories": ["white paper"]
+tags: ["dilemma", "manipulate", "DOM", "ameliorate"]
 title: "Concessions to usability"
 linkTitle: "Concessions to usability"
 weight: 3

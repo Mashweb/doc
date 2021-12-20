@@ -142,33 +142,36 @@ Dan Ingalls, <a href="https://youtu.be/QTJRwKOFddc">"The Live Web. Drag 'n drop 
 <a href="https://www.w3.org/TR/CSS2/visuren.html#box-gen">"Controlling box generation"</a>, Section 9.2 of "Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification" W3C Recommendation, retrieved November 29, 2021.
     </li>
     <li id="fn:44">
-David Madore, <a href="http://www.madore.org/~david/computers/callcc.html">"A page about call/cc"</a>, www.madore.org, retrieved November 29, 2021.
+<a href="https://caniuse.com/?search=css3">"css3 | Can I use&hellip;&nbsp;Support tables for HTML5, CSS3, etc"</a>, caniuse.com, retrieved December, 9, 2021.
     </li>
     <li id="fn:45">
-<a href="https://scratch.mit.edu">Scratch</a>, MIT, retrieved November 29, 2021.
+David Madore, <a href="http://www.madore.org/~david/computers/callcc.html">"A page about call/cc"</a>, www.madore.org, retrieved November 29, 2021.
     </li>
     <li id="fn:46">
-<a href="https://snap.berkeley.edu">Snap! Build Your Own Blocks</a>, UC Berkeley, retrieved November 29, 2021.
+<a href="https://scratch.mit.edu">Scratch</a>, MIT, retrieved November 29, 2021.
     </li>
     <li id="fn:47">
-<a href="https://en.wikipedia.org/wiki/Transclusion">"Transclusion"</a>, Wikipedia, retrieved November 29, 2021.
+<a href="https://snap.berkeley.edu">Snap! Build Your Own Blocks</a>, UC Berkeley, retrieved November 29, 2021.
     </li>
     <li id="fn:48">
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options">"X-Frame-Options"</a>, Mozilla Developer Network, retrieved November 29, 2021.
+<a href="https://en.wikipedia.org/wiki/Transclusion">"Transclusion"</a>, Wikipedia, retrieved November 29, 2021.
     </li>
     <li id="fn:49">
-<a href="http://google.com/search?q=chrome+memory+usage">"chrome memory usage - Google Search"</a>, Google, queried November 29, 2021. (Is the problem finally solved this year?)
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options">"X-Frame-Options"</a>, Mozilla Developer Network, retrieved November 29, 2021.
     </li>
     <li id="fn:50">
-<a href="https://chrome.google.com/webstore/detail/tabs-outliner/eggkanocgddhmamlbiijnphhppkpkmkl?hl=en">"Tabs Outliner - Chrome Web Store"</a>, Google, retrieved November 29, 2021.
+<a href="http://google.com/search?q=chrome+memory+usage">"chrome memory usage - Google Search"</a>, Google, queried November 29, 2021. (Is the problem finally solved this year?)
     </li>
     <li id="fn:51">
-<a href="https://developer.yahoo.com/search/content/V2/contentAnalysis.html">"Content Analysis Web Service"</a>, Yahoo! Developer Network, last <a href="http://web.archive.org/web/20170702144802/https://developer.yahoo.com/search/content/V2/contentAnalysis.html">archived on February 10, 2020</a>, not online as of November 29, 2021 when retrieval was attempted.
+<a href="https://chrome.google.com/webstore/detail/tabs-outliner/eggkanocgddhmamlbiijnphhppkpkmkl?hl=en">"Tabs Outliner - Chrome Web Store"</a>, Google, retrieved November 29, 2021.
     </li>
     <li id="fn:52">
-<a href="https://en.wikipedia.org/wiki/Xmarks_Sync#Company_history">"Xmarks company history"</a>, Wikipedia, retrieved November 29, 2021.
+<a href="https://developer.yahoo.com/search/content/V2/contentAnalysis.html">"Content Analysis Web Service"</a>, Yahoo! Developer Network, last <a href="http://web.archive.org/web/20170702144802/https://developer.yahoo.com/search/content/V2/contentAnalysis.html">archived on February 10, 2020</a>, not online as of November 29, 2021 when retrieval was attempted.
     </li>
     <li id="fn:53">
+<a href="https://en.wikipedia.org/wiki/Xmarks_Sync#Company_history">"Xmarks company history"</a>, Wikipedia, retrieved November 29, 2021.
+    </li>
+    <li id="fn:54">
 <a href="https://en.wikipedia.org/wiki/Category:Discontinued_Google_services">"Wikipedia category: Discontinued Google services"</a>, Wikipedia, retrieved November 29, 2021.
     </li>
     <li id="fn:54">

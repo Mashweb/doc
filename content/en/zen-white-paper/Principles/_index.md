@@ -1,5 +1,7 @@
 
 ---
+categories: ["white paper"]
+tags: ["principles", "values", "practices", "prototype", "object system", "installation", "composition", "GUI", "DOM", "API", "SVG", "Canvas", "Squeak", "AST", "visual programming", "sequential programming", "copy", "paste", "asynchronous", "event", "input", "I/O", "synchronize", "continuation", "Scheme", "interpreter", "JavaScript", "TTI", "scene graph", "CSS2", "visual formatting model", "CSS3", "A-grade web browser"]
 title: "Principles"
 linkTitle: "Principles"
 weight: 5
@@ -15,10 +17,10 @@ As pointed out by David Ungar (who pioneered the type of prototypal object syste
 1. It will be a composition environment, a GUI builder.
 1. It will store its apps as web pages.
 1. It will compose web pages using the DOM's interfaces and APIs{{< fnref 39 >}}<sup>, </sup>{{< fnref 40 >}} but not SVG or Canvas drawing operations.
-1. Zen will allow its composition objects and simple programs to be inspected and edited via a Squeak-like object inspector.{{< fnref 41 >}} Zen will, by default, hide its visual programming environment. When visual programming is enabled, Zen will use HTML elements like DIV to model nodes in the program's abstract syntax tree (AST).{{< fnref 42 >}} Zen will enable these program nodes or blocks to be copied, pasted, and rearranged, just like the ordinarily visible parts of a Zen web page.
+1. Zen will allow its composition objects and simple programs to be inspected and edited via a Squeak-like object inspector.{{< fnref 41 >}} Zen will, by default, hide its visual programming environment. When visual programming is enabled, Zen will use HTML elements like `DIV` to model nodes in the program's abstract syntax tree (AST).{{< fnref 42 >}} Zen will enable these program nodes or blocks to be copied, pasted, and rearranged, just like the ordinarily visible parts of a Zen web page.
 1. It will enable its users to easily compose sequential programs, that is, programs that can wait for external, asynchronous events such as user input or I/O. Zen will synchronize its user's sequential programs through Scheme continuations in an interpreter running on top of JavaScript in the web browser. (See below.)
 1. Zen will be loadable into any web page as a library, although caution will be required to ensure compatibility.
 1. It will *complement*, *augment*, and *interact* with existing web page editors and website builders, not replace them.
 1. It will allow the Zen-editing of a web page to be locked, leaving intact the form and behavior it built inside the web page.
 1. Zen will not add more than 1&ndash;3 seconds to a web page's TTI (time to interact).
-1. Zen will not follow Lively Kernel's principle of implementing a scene graph.{{< fnref 37 >}} Instead, it will leverage the CSS2 visual formatting model{{< fnref 43 >}} to model a document in a web browser.
+1. Zen will not follow Lively Kernel's principle of implementing a scene graph.{{< fnref 37 >}} Instead, it will leverage the CSS2 visual formatting model{{< fnref 43 >}} and CSS3 features implemented by A-grade web browsers{{< fnref 44 >}} to model a document in a web browser.
