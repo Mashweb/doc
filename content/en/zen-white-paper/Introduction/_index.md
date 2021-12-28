@@ -1,6 +1,6 @@
 ---
 categories: ["white paper", "survey"]
-tags: ["user programming", "low code", "no code", "web applications", "web develoment", "Zen", "free software", "continuations", "Nexus browser", "Berners-Lee", "contentEditable", "rich-text editor", "WYSIWYG", "WYSIWYM", "augmented browsing", "IDE", "CMS", "website builder", "web framework", "web portal"]
+tags: ["user programming", "low code", "no code", "web applications", "web apps", "web develoment", "Zen", "free software", "continuations", "Nexus browser", "Berners-Lee", "contentEditable", "rich-text editor", "WYSIWYG", "WYSIWYM", "augmented browsing", "IDE", "CMS", "website builder", "web framework", "web portal"]
 title: "Introduction"
 linkTitle: "Introduction"
 weight: 1
@@ -9,11 +9,63 @@ description: >
 type: docs
 ---
 
-This white paper presents the profoundly unique, personalized, and adaptable Zen system, under development, for creating web applications&mdash;a radically new system usable by a very inclusive class of people. It links to [live, interactive experiments](https://web-call.cc) showing the incremental progress in building Zen. Each investigation tests at least one new function to make web-page editing easy and natural and enable non-programmers to create simple web applications. Someday, Zen might allow any literate person to build their own highly interactive web applications from scratch and decide virtually every detail of their look, structure, and function simply, efficiently, and quickly *without prior learning*. Why would anyone but a geek or a nerd want to do that? And why hasn't someone already made it possible?
+This white paper presents the profoundly unique, personalized, and adaptable Zen system, under development, for creating web applications&mdash;a radically new system usable by a very inclusive class of people.
+The alpha stage of the Zen project is the building of a small bridge over the gap between codeless, programmerless web authoring and the large-scale web application development that programmers do.
+There are numerous opportunities to build this small bridge because
+simple web-page interactions have become part and parcel of a novice's understanding: copy-paste, URL linking, drag-and-drop, resizing, opening new browser tabs, etc.
+All such interactions could be created *inside* a web page via cleverly devised menus and buttons suggesting next steps to the web page visitor. Such interactions are sometimes called wizards and macros, but already that sounds too technical!
+
+A typical example of a web application, *aka* web app, is 
+a highly interactive website with various kinds of media and interaction. Such a model provides lots of examples of variability between web apps. We all know there are countless websites dedicated to every subject imaginable. So why would anyone but a computer geek want to create one more? Isn't there already a web app for every need, even for every personal, private need?
 
 {{< figure src="/images/programming.jpg" title="Old School">}}
 
-The answer to the first question, "Why would just anyone want to create web applications?" is that the web is the natural way to organize ideas and information in the digital age. The ["Guide to Mashweb"](/guide) goes into depth about the problems people of the Digital Age encounter every day and proposes answers using Zen and Mashweb.
+This white paper does not go deeply into the question. Rather, the possibilities will be explored and developed gradually on the website [web-call.cc](https://web-call.cc) and in the [Mashweb Guide](/guide). 
+However, the short answer to the question is that a website can best serve *an individual* if it keeps a laser focus on *his particular needs*. 
+There are two opposing forces in operation behind website development: the need to conform to the *individual web user's* interests and the need to serve a *class of people*. 
+There are just too many possible requirements for one size to fit all. 
+A few of the infinite possibilities for tailormade websites are presented in this Introduction.
+This white paper proposes that every literate person should create his or her own web apps.
+
+## The web is replacing pen and paper.
+
+In place of reading hardback and paperback books or magazines and journals, and in place of keeping notes on paper, people are reading and writing digital media, especially on the web. There are countless websites dedicated to socializing, employment, cars, sports, self-help, arts, science, religion, and philosophy, millions of subjects large and small, both consequential and inconsequential. The requirements of each website can be as unique as the website's target audience.
+
+Here is a small sample of the user interactions that can make a website unique:
+* searching
+* liking
+* tagging
+* sharing
+* posting
+* commenting
+* chatting
+* discussing
+* moderating
+* uploading
+* curating
+
+And that is but a start. The reader might notice that many of these *microinteractions* are used to turn a website into a *social network*, but microinteractions like these can define the main utility of any website.
+
+There are also many kinds of specialized *media* and *data* a website visitor can interact with:
+* short text, like on a microblogging site like Twitter
+* long text
+* photos
+* sounds
+* links
+* numbers
+* interactive graphs
+
+A website can also be specialized by its behind-the-scenes *databases* and *services*, that is, by the data it accesses or collects and by its operations on the data.
+
+Someday, Zen might allow any literate person to build their own highly interactive web applications (*aka* web apps) from scratch and decide virtually every detail of their look, structure, and function simply, efficiently, and quickly *without prior learning*. This white paper links to [live, interactive experiments](https://web-call.cc) showing the incremental progress in building Zen. Each investigation tests at least one new function to enable non-programmers to create simple web applications. 
+
+But why would anyone but a computer geek want to do that? And why hasn't someone already made it possible?
+
+The answer to the first question, "Why would everyone want to create web applications?" is that the web is the natural way to organize ideas and information in the digital age. The ["Guide to Mashweb"](/guide) goes into depth about the problems people of the Digital Age encounter every day, but the main advantages of the web over other forms of electronic media are:
+* the web is everywhere on our planet,
+* the web enables hypermedia, i.e. web links,
+* the web encompasses multimedia, and
+* the web, through HTML, CSS, and JavaScript, gives structure to data, i.e. ways to organize data.
 
 The answer to the second question, "Why hasn't someone already made it possible?" has two parts. First, the "group think" among programmers is so strong that no one has noticed the relevance of a little-studied capability of a little-studied programming language. This capability can shrink the programming task an order of magnitude and encourage the exploration of ambitious new paradigms of the user interface. Second, the new paradigms will enable Zen to work inside documents to build organized media rather than outside as a "bolted on" application. Working inside web pages will make Zen natural and powerful. The current "Zen White Paper" goes into depth on the subject of Zen's key technologies.
 
