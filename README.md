@@ -19,20 +19,20 @@ This Docsy Example Project is hosted on [Netlify][] at [example.docsy.dev][].
 You can view deploy logs from the [deploy section of the project's Netlify
 dashboard][deploys], or this [alternate dashboard][].
 
-This is not an officially supported Google product. This project is currently maintained.
+## The Docsy Example Project was used as a template to start this project
 
-## Using the Docsy Example Project as a template
+The following procedure came from the Docsy Example Project. I edited it for this project, but some references to the Docsy Example Project might have slipped through. -TE
 
-A simple way to get started is to use this project as a template, which gives you a site project that is set up and ready to use. To do this: 
+A simple way to get started was to use the Docsy Example Project as a template, which gave me a site project that was set up and ready to use. To do so, I used the following procedure from the Docsy Example Project in my clone of it: 
 
 1. Click **Use this template**.
 
 2. Select a name for your new project and click **Create repository from template**.
 
-3. Make your own local working copy of your new repo using git clone, replacing https://github.com/my/example.git with your repo’s web URL:
+3. Make your own local working copy of your new repo using git clone, replacing https://github.com/my/example.git with this repo’s web URL:
 
 ```bash
-git clone --recurse-submodules --depth 1 https://github.com/my/example.git
+git clone --recurse-submodules --depth 1 https://github.com/Mashweb/doc.git
 ```
 
 You can now edit your own versions of the site’s source files.
@@ -43,9 +43,11 @@ If you want to do SCSS edits and want to publish these, you need to install `Pos
 npm install
 ```
 
+Those are the exact words copied from the Docsy Example Project, except that I gave the actual URL for this project, https://github.com/Mashweb/doc.git .
+
 ## Running the website locally
 
-Building and running the site locally requires a recent `extended` version of [Hugo](https://gohugo.io).
+Building and running this site locally requires a recent `extended` version of [Hugo](https://gohugo.io).
 You can find out more about how to install Hugo for your environment in our
 [Getting started](https://www.docsy.dev/docs/getting-started/#prerequisites-and-installation) guide.
 
