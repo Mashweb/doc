@@ -1,10 +1,10 @@
-# Docsy Example
+# Generated from the Docsy Example
 
 [Docsy][] is a [Hugo theme][] for technical documentation sites, providing easy
-site navigation, structure, and more. This **Docsy Example Project** uses the
-Docsy theme and provides a skeleton documentation structure for you to use. You
-can clone/copy this project and edit it with your own content, or use it as an
-example.
+site navigation, structure, and more. This project was begun as a clone of the
+**Docsy Example Project**, which uses the
+Docsy theme and provides a skeleton documentation structure for you to use.
+Refer to that project for more information.
 
 In this project, the Docsy theme is included as a Git submodule:
 
